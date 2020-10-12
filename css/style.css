@@ -13,8 +13,41 @@
 }
 
 
+.container{
+  width:100%;
+  height:100%;
+  display: inline-block;
+}
 
 
+.videoplayer{
+  width: 1280px;
+  height: 720px;
+  background-size: cover;
+  background-image: url('../img/video.JPG');
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.timeline{
+  width: 100%;
+  height: 10%;
+  border-top: 5px solid red;
+  background-color: rgba(2, 23, 50, 0.4);
+  position: fixed;
+  bottom: 0;
 
 
-/* #adb5bd */
+}
+
+.fa-play:before {
+    margin-top: 3px;
+    content: "\f04b";
+    font-size: 50px;
+    display: inline-block;
+    color: grey;
+    margin-left: 20px;
+    vertical-align: initial;
+}
